@@ -5,6 +5,8 @@ import bannerImgOne from "../public/images/bannerImgOne.jpg";
 import bannerImgTwo from "../public/images/bannerImgTwo.jpg";
 import bannerImgThree from "../public/images/bannerImgThree.jpg";
 import bannerImgFour from "../public/images/bannerImgFour.jpg";
+import bannerImgFive from "../public/images/bannerImgFive.jpg"
+import bannerImgEight from "../public/images/bannerImgEight.jpg"
 
 function SampleNextArrow(props: any) {
   const { onClick } = props;
@@ -66,15 +68,15 @@ const Banner = () => {
         <div>
           <Image
             className="w-full h-auto md:h-[650px] object-cover"
-            src={bannerImgOne}
+            src={bannerImgFive}
             loading={"eager"}
-            alt="bannerImgOne"
+            alt="bannerImgfive"
           />
         </div>
         <div>
           <Image
             className="w-full h-auto md:h-[650px] object-cover"
-            src={bannerImgTwo}
+            src={bannerImgEight}
             loading={"lazy"}
             alt="bannerImgTwo"
           />

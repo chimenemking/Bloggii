@@ -13,7 +13,7 @@ const BannerBottom = () => {
         <h3 className="font-bold text-xl md:text-3xl">
           These 7 things will change the way you approach learning!
         </h3>
-        <p className="text-xs text-white/50">Camila Hoffman / 4 weeks ago</p>
+        <p className="text-xs text-white/50">Koffi Franklin / 7 weeks ago</p>
       </div>
       <div className="w-full lg:w-[40%] flex items-center justify-center gap-2 lg:gap-8">
         <div className="w-full flex flex-col items-center group">
@@ -31,7 +31,7 @@ const BannerBottom = () => {
         <div className="w-full flex flex-col items-center justify-center group">
           <GoComment className="text-4xl text-gray-300 group-hover:text-white duration-300" />
           <p className="text-xs md:text-sm font-titleFont text-white/50 group-hover:text-white">
-            place comments
+            leave a comment
           </p>
         </div>
       </div>
